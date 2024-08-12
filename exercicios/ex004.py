@@ -1,0 +1,11 @@
+nome = str(input('Digite Algo: '))
+#print(nome)
+
+print('O tipo primitivo desse valor é: \033[37m{}\033[m' .format(type(nome)))
+print('Só tem espaços? \033[30m{}\033[m' .format(nome.isspace()))
+print('É um número? \033[31m{}\033[m' .format(nome.isnumeric()))
+print('É Alfabético? \033[32m{}\033[m' .format(nome.isalpha()))
+print('É alfanúmerico? \033[33m{}\033[m' .format(nome.isalnum()))
+print('Maiusculas? \033[34m{}\033[m' .format(nome.isupper()))
+print('Minusculas? \033[35m{}\033[m' .format(nome.islower()))
+print('Esta capitalizada? \033[36m{}\033[m' .format(nome.istitle()))

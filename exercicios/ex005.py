@@ -1,0 +1,2 @@
+n1 = int(input('Digite um numero inteiro: '))
+print('Analisando o valor {}{}{}, seu antecessor e {}{}{} e seu sucessor e {}{}{}' .format('\033[32m',n1, '\033[m', '\033[35m', (n1 - 1), '\033[m' , '\033[36m' , (n1 + 1) , '\033[m'))
